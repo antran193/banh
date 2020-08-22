@@ -104,3 +104,38 @@ button{
     width: 100%;
     display: block;
 }
+.number{
+    width: 70%;
+    padding:  50px 0;
+    margin:0 auto;
+    
+}
+.numbercount{
+    display: -webkit-box;
+    display: flex;
+    justify-content:space-around;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.numbercount div{
+    font-size: 20px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.servicelist{
+    width: 90%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    -webkit-box-align:center;
+    align-items:center;
+    text-align: center;
+}
+
+.serviceitem{
+    padding: 30px 15px;
+    margin: 30px auto;
+}
