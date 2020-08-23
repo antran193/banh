@@ -69,7 +69,7 @@ html,body{
     left: 550px;
     text-transform: uppercase;
 }
-button{
+.backhead button{
     animation-name: stretch;
     animation-duration: 1.5s; 
     animation-timing-function: ease-out; 
@@ -223,3 +223,138 @@ h3::after{
     -webkit-transition: all .5s;
     transition: all .5s;
 }
+.team-conten{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 10px auto;
+    width: 90%;
+    grid-gap:20px;
+
+}
+.team-item{
+    /* padding: 10px; */
+    position: relative;
+}
+.team-item img{
+    width: 100%;
+    display: block;
+
+}
+.team-text-show{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8;
+    background-color: rgb(214, 20, 111);
+    color: white;
+    width: 100%;
+    padding: 10px 25px 40px ;
+    transition: all 1s;
+    
+}
+.team-text-hiden{
+    position: absolute;
+    top: 0;
+    left:  0;
+    opacity: 0;
+    background-color:rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    color: white;
+    transition: all 1s;
+}
+.team-item:hover .team-text-show {
+    opacity: 0;
+    
+}
+.team-item:hover .team-text-hiden{
+    opacity: 1;
+}
+.team-iteam2 .team-text-hiden{
+    opacity: 1;
+    transform: translatex(-100%);
+    -webkit-transform: translateX(-100%);
+
+}
+.team-iteam2:hover .team-text-hiden{
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+.team-iteam2{
+    overflow: hidden;
+}
+.team-iteam3 .team-text-hiden{
+    opacity: 1;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+.team-iteam3:hover .team-text-hiden{
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+}
+.team-iteam3{
+    overflow: hidden;
+}
+.team-iteam4 .team-text-hiden{
+    opacity: 1;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+}
+.team-iteam4:hover .team-text-hiden{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+}
+.team-iteam4{
+    overflow: hidden;
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+.header1{
+    width: 70%;
+    margin: 20px auto;
+    border: pink;
+    border-style: solid;
+    padding: 30px;
+    text-align: center;
+}
+.contact h1{
+    text-align: center;
+}
+.formcontact{
+    display: grid;
+    width: 70%;
+    margin: 20px auto;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.formcontact button{
+    background-color: green;
+    padding:10px ;
+    color: white;
+    grid-column: 1 / span 2;
+    width: 100%;
+
+}
+.formcontact #message{
+    grid-column: 1 / span 2;
+}
+.formcontact input{
+    padding: 20px;
+    font-size: larger;
+}
+#message{
+    padding: 20px;
+    font-size: larger;
+    height: 200px;
+}
+.ggmap{
+    margin: 10px;
+}
+
