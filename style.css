@@ -146,6 +146,19 @@ h2{
     padding: 30px 15px;
     margin: 30px auto;
 }
+.serviceitem>i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: blueviolet solid 2px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.serviceitem:hover .fa{
+    color: rgb(160, 15, 141);
+
+}
 .galary{
     display: grid;
     grid-template-columns:repeat(4, 1fr);

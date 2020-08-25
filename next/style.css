@@ -1,0 +1,194 @@
+
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(40, 175, 85);
+    text-decoration: underline;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+a:active{
+    color: rgb(131, 78, 78);
+    text-decoration: none;
+}
+#id{
+    text-align: center;
+    width: 1000px;
+
+
+}
+.nav{
+    margin: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding: 20px;
+
+}
+ul{
+    width: 250px;
+}
+.nav span > li{
+    display: inline; 
+    padding: 20px ;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+}
+
+.nav span li > ul{
+    position: absolute;
+    list-style: none;
+    display: none;
+    margin-left: 100px;
+    
+}
+.nav span li:hover ul{
+    padding: 10px;
+    display: block;
+}
+.left{
+    width: 70%;
+    height: 400px;
+    float: left;
+    background-color: rgb(23, 105, 60);
+}
+/* .center{
+    width: 600px;
+    float: none;
+    background-color: darkgray;
+} */
+.right{
+    width: 30%;
+    height: 400px;
+    float: right;
+    background-color: darkorange;
+}
+
+.fooder{
+    background-color: gray;
+    height: 800px;
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+
+}
+.red{
+    background-color: red;
+    top: 200px;
+    left: 300px;
+}
+.yelow{
+    background-color: yellow;
+    border-left: 400px;
+}
+.green{
+    background-color: green;
+    bottom: 200px;
+    right: 300px;
+}
+.clear{
+    clear: both;
+}
+.header{
+    background-color: red;
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    border-style: double ;
+    border-color: blue;
+    border-width: 2px;
+}
+.head{
+    height: 400px;
+    width: 800px;
+    border: double;
+    margin-left: auto;
+    margin-right:auto ;
+
+}
+.bia{
+    height: 85%;
+    width: 100%;
+    background-image: url('bia.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .tr_head{
+    width: 100%;
+    height: 50px;
+} */
+.h1{
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(114, 192, 25);
+    text-align: center;
+    text-decoration: underline  rgb(114, 192, 25);
+}
+#td_id{
+    width: 50px;
+}
+#td_image_head{
+    width: 400px;
+}
+#td_VND_head{
+    width: 100px;
+}
+.table,td,tr{
+    border: 1.4px double black;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.td_image{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+.image1{
+    height: 160px;
+    width: 160px;
+    background-image: url('bikini1.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+.image2{
+    height: 160px;
+    width: 160px;
+    background-image: url('bikini2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.image3{
+    height: 160px;
+    width: 160px;
+    background-image: url('bikini3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
